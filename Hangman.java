@@ -132,7 +132,7 @@ public class Hangman {
             System.out.print("Enter your guess: ");
             String input = scanner.nextLine();
 
-            if (input == null || input.isEmpty()) {
+            if (input.isEmpty()) {
                 continue;
             }
 
